@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d43bcc33-bcc8-4ec8-a20b-ce5519863b50}</ProjectGuid>
-    <RootNamespace>Chapter2R</RootNamespace>
+    <ProjectGuid>{19343ed7-d206-42eb-ae19-872f961ca593}</ProjectGuid>
+    <RootNamespace>Chapter2Q2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,11 +129,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="addfloat.cpp" />
-    <ClCompile Include="Chapter 2 R.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="addfloat.h" />
+    <ClCompile Include="Chapter 2 Q2.cpp" />
+    <ClCompile Include="io.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
