@@ -211,6 +211,8 @@ int add(int x, int y) // Function definition
 
 // You can also use #pragma once in your header files instead of header guards
 
+// Remember to #include the header file in the corresponding .cpp file
+
 
 
 int main()
