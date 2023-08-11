@@ -203,11 +203,11 @@ auto max(auto x, auto y)
 
 // Best practice: Use N as the name of an int non-type template parameter
 
-// 
-
+#if 0
 int main()
 {
     return 0;
 }
+#endif
 
 

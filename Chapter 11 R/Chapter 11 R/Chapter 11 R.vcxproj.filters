@@ -13,10 +13,70 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="11.2 Q2">
+      <UniqueIdentifier>{5421433f-c435-469b-8215-24b6d65a29bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.3 Q1">
+      <UniqueIdentifier>{e48e31e5-d6be-4847-b419-6d3ef4fbe52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.3 Q2">
+      <UniqueIdentifier>{9f8ce037-303b-40bd-96aa-8fd3ce19fc8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.3 Q3">
+      <UniqueIdentifier>{1caa2e38-7344-4df3-be58-d535f64aefe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.3 Q4">
+      <UniqueIdentifier>{9cf3a752-3e3d-4f53-8ec1-36b9ed610426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.4 Q2">
+      <UniqueIdentifier>{decdfb0a-2d0b-4c38-abc6-1b23e92901a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.4 Q3">
+      <UniqueIdentifier>{7701afc4-247a-462b-8a16-4786dd9b9314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.8 Q2">
+      <UniqueIdentifier>{ae1bd229-7ad3-443f-8310-33bf621858f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.11 Q1">
+      <UniqueIdentifier>{43cb70cc-bc88-4fdc-bc74-15dac1bceaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.12 Q1">
+      <UniqueIdentifier>{55ee3a89-64f0-4d5b-9a85-faf467dec705}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 11 R.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animals.cpp">
+      <Filter>11.2 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="printARR.cpp">
+      <Filter>11.3 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="getIndex.cpp">
+      <Filter>11.3 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="maxScore.cpp">
+      <Filter>11.3 Q3</Filter>
+    </ClCompile>
+    <ClCompile Include="FizzBuzzArr.cpp">
+      <Filter>11.3 Q4</Filter>
+    </ClCompile>
+    <ClCompile Include="descendSort.cpp">
+      <Filter>11.4 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="bubbleSort.cpp">
+      <Filter>11.4 Q3</Filter>
+    </ClCompile>
+    <ClCompile Include="findValue.cpp">
+      <Filter>11.8 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamicNameArr.cpp">
+      <Filter>11.11 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="forEach.cpp">
+      <Filter>11.12 Q1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

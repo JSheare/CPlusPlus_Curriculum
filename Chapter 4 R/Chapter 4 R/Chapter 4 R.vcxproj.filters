@@ -13,10 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="4.12 Q1">
+      <UniqueIdentifier>{4b8505c2-0e8b-4503-bad7-d3f135d10988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.17 Q1">
+      <UniqueIdentifier>{bff1d216-89ac-427d-89cf-6d7c1b4fb585}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 4 R.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="char_to_ascii.cpp">
+      <Filter>4.12 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="name_plus_age.cpp">
+      <Filter>4.17 Q1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

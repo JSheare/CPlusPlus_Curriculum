@@ -216,8 +216,10 @@
 // Best practice: only initialize variables in the capture if their value is short and their type is obvious
 //      otherwise it's best to define the variable outside of the lambda and capture it
 
+#if 0
 int main()
 {
     return 0;
 }
+#endif
 

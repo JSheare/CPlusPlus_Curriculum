@@ -13,10 +13,66 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="13.2 Q1">
+      <UniqueIdentifier>{9c78b955-19cc-4dd1-8c7d-5328e4fc36c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.3 Q2">
+      <UniqueIdentifier>{b53709bb-2129-46e5-8b8f-435cc4082dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.3 Q3">
+      <UniqueIdentifier>{cfbb7f63-819c-4df0-84b2-bb3ccd0a617b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.5 Q1">
+      <UniqueIdentifier>{60a814eb-6baf-4072-95fa-9711f92cdcc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.6 Q1">
+      <UniqueIdentifier>{f88ef5b9-c994-4e1a-87b7-457f24b5379e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.7 Q1">
+      <UniqueIdentifier>{654605d5-412e-4624-a118-b7ee2cb6000a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13.15 Q1">
+      <UniqueIdentifier>{7ec5522e-4229-4f4c-809b-ff3aba2fcc3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 13 R.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IntPair.cpp">
+      <Filter>13.2 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3d_pre.cpp">
+      <Filter>13.3 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>13.3 Q3</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>13.5 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBA.cpp">
+      <Filter>13.6 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="BallOpt.cpp">
+      <Filter>13.7 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3d.cpp">
+      <Filter>13.15 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3d.cpp">
+      <Filter>13.15 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>13.15 Q1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point3d.h">
+      <Filter>13.15 Q1</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3d.h">
+      <Filter>13.15 Q1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

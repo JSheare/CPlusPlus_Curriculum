@@ -129,7 +129,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="0_to_20.cpp" />
+    <ClCompile Include="a_z_ascii.cpp" />
     <ClCompile Include="Chapter 7 R.cpp" />
+    <ClCompile Include="fizzbuzz.cpp" />
+    <ClCompile Include="fizzbuzzpop.cpp" />
+    <ClCompile Include="inv_right_triangle.cpp" />
+    <ClCompile Include="right_tri.cpp" />
+    <ClCompile Include="sumTo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

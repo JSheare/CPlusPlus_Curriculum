@@ -214,9 +214,10 @@ int add(int x, int y) // Function definition
 // Remember to #include the header file in the corresponding .cpp file
 
 
-
+#if 0
 int main()
 {
 	std::cout << addfloat(3.5, 3.5) << '\n';
 	return 0;
 }
+#endif

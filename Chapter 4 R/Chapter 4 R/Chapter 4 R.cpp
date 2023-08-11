@@ -308,6 +308,7 @@
 
 // Good summary of when to use std::string vs. str::string_view at the bottom of https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/
 
+#if 0
 int main()
 {
     std::cout << "bool:\t\t" << sizeof(bool) << " bytes\n";
@@ -325,3 +326,4 @@ int main()
 
 	return 0;
 }
+#endif

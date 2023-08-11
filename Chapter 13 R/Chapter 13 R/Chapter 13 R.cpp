@@ -289,7 +289,9 @@ public:
 // You can time stuff in C++ using the chrono library (arcane)
 // Or use the timing class provided here: https://www.learncpp.com/cpp-tutorial/timing-your-code/
 
+#if 0
 int main()
 {
     return 0;
 }
+#endif

@@ -129,7 +129,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="BallOpt.cpp" />
     <ClCompile Include="Chapter 13 R.cpp" />
+    <ClCompile Include="IntPair.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Point3d.cpp" />
+    <ClCompile Include="Point3d_pre.cpp" />
+    <ClCompile Include="RGBA.cpp" />
+    <ClCompile Include="stack.cpp" />
+    <ClCompile Include="Vector3d.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point3d.h" />
+    <ClInclude Include="Vector3d.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -129,7 +129,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="adRevenue.cpp" />
+    <ClCompile Include="animals.cpp" />
     <ClCompile Include="Chapter 10 R.cpp" />
+    <ClCompile Include="fracStruct.cpp" />
+    <ClCompile Include="Monsters.cpp" />
+    <ClCompile Include="MonsterType.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

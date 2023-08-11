@@ -297,6 +297,7 @@
 // mt19937 (32-bit unsigned integers)
 // mt19937_64 (64-bin unsigned integers)
 
+#if 0
 int main()
 {
     std::mt19937 mt{}; // Instantiate a 32-bit Mersenne Twister
@@ -313,6 +314,7 @@ int main()
 
     return 0;
 }
+#endif
 
 // A uniform distribution is a random number distribution that produces outputs between two numbers X and Y (inclusive) with equal probability
 

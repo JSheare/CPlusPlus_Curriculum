@@ -244,9 +244,11 @@
 
 // Best practice: If you want a const pointer, reapply the const qualifier even when it’s not strictly necessary, as it makes your intent clear and helps prevent mistakes.
 
+#if 0
 int main()
 {
     return 0;
 }
+#endif
 
 

@@ -130,6 +130,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 4 R.cpp" />
+    <ClCompile Include="char_to_ascii.cpp" />
+    <ClCompile Include="name_plus_age.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -129,7 +129,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="animals.cpp" />
+    <ClCompile Include="bubbleSort.cpp" />
     <ClCompile Include="Chapter 11 R.cpp" />
+    <ClCompile Include="descendSort.cpp" />
+    <ClCompile Include="dynamicNameArr.cpp" />
+    <ClCompile Include="findValue.cpp" />
+    <ClCompile Include="FizzBuzzArr.cpp" />
+    <ClCompile Include="forEach.cpp" />
+    <ClCompile Include="getIndex.cpp" />
+    <ClCompile Include="maxScore.cpp" />
+    <ClCompile Include="printARR.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

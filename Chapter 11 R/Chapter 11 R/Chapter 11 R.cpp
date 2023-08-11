@@ -365,8 +365,10 @@
 
 // Best practice: Favor using functions from the algorithms library over writing your own functionality to do the same thing
 
+# if 0
 int main()
 {
 	return 0;
 }
+#endif 
 

@@ -236,8 +236,10 @@ namespace Goo
 	}
 }
 
+#if 0
 int main()
 {
 	Goo::bar();
 	return 0;
 }
+#endif 

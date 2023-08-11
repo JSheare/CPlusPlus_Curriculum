@@ -60,6 +60,7 @@
 // A bit mask is a predefined set of bits that is used to select which specific bits will be modified by subsequent operations
 // Bit flags make the most sense when you have many identical flag variables
 
+#if 0
 int main()
 {
     std::bitset<8> bits{ 0b0000'0101 }; // we need 8 bits, start with bit pattern 0000 0101
@@ -73,3 +74,4 @@ int main()
 
     return 0;
 }
+#endif

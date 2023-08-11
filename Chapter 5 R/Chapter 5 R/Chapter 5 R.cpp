@@ -97,6 +97,7 @@
 
 // Best practice: when mixing logical AND and logical OR in a single expression, explicitly parenthesize each operation to ensure they evaluate how you intended
 
+#if 0
 int main()
 {
     int x = { 1 };
@@ -105,4 +106,4 @@ int main()
     std::cout << x << '\n';
     return 0;
 }
-
+#endif

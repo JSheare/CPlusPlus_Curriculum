@@ -231,6 +231,7 @@ struct Pair
 // Pair(T, U) -> Pair<T, U>;
 
 
+#if 0
 int main()
 {
     // Define a few variables of enumerated type Color
@@ -243,5 +244,6 @@ int main()
 
     return 0;
 }
+#endif
 
 

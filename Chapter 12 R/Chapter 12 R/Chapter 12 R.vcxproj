@@ -129,7 +129,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="calculator.cpp" />
     <ClCompile Include="Chapter 12 R.cpp" />
+    <ClCompile Include="factorial.cpp" />
+    <ClCompile Include="intToBinary.cpp" />
+    <ClCompile Include="printDigitSum.cpp" />
+    <ClCompile Include="sortTemps.cpp" />
+    <ClCompile Include="squares.cpp" />
+    <ClCompile Include="studentCompare.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

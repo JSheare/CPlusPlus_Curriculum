@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="2.12 Q1">
+      <UniqueIdentifier>{495065a4-58d5-4bfc-b3bb-e9600704e022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.8 Q1">
+      <UniqueIdentifier>{2fce795d-55b2-41ef-af18-04e31b6d3f1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 2 R.cpp">
@@ -21,10 +27,19 @@
     <ClCompile Include="addfloat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>2.8 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>2.8 Q1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addfloat.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="add.h">
+      <Filter>2.12 Q1</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

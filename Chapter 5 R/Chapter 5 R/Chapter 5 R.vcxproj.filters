@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="5.3 Q2">
+      <UniqueIdentifier>{13141c5b-452a-465f-bba6-2a4a1e75b4fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 5 R.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="even_or_odd.cpp">
+      <Filter>5.3 Q2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

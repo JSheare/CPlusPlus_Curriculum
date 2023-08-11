@@ -82,6 +82,7 @@ void writeanswer(int x)
 	std::cout << "the quotient is: " << x << '\n';
 }
 
+#if 0
 int main()
 {
 	int x{ };
@@ -92,3 +93,4 @@ int main()
 
 	return 0;
 }
+#endif

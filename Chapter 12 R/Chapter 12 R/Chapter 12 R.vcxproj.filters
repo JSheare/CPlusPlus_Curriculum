@@ -13,10 +13,52 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="12.1 Q1">
+      <UniqueIdentifier>{399f8e2c-28fa-476c-96ae-953bb33fe62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.4 Q1">
+      <UniqueIdentifier>{305637b5-8bdb-4621-acb4-a27deebe0bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.4 Q2">
+      <UniqueIdentifier>{dd7d50ea-ff07-4f2e-92ad-d6bd91b2f591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.4 Q3">
+      <UniqueIdentifier>{e072bf31-7666-4df3-9c88-35aa8afc6350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.7 Q1">
+      <UniqueIdentifier>{7c478eb1-9f07-4b69-9090-8dc2d539b500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.7 Q2">
+      <UniqueIdentifier>{a9ca3940-465f-4693-b40e-62370047e0d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12.8 Q3">
+      <UniqueIdentifier>{a7f92a88-75c8-4f37-8a16-4311594e15a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 12 R.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator.cpp">
+      <Filter>12.1 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="factorial.cpp">
+      <Filter>12.4 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="printDigitSum.cpp">
+      <Filter>12.4 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="intToBinary.cpp">
+      <Filter>12.4 Q3</Filter>
+    </ClCompile>
+    <ClCompile Include="studentCompare.cpp">
+      <Filter>12.7 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="sortTemps.cpp">
+      <Filter>12.7 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="squares.cpp">
+      <Filter>12.8 Q3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

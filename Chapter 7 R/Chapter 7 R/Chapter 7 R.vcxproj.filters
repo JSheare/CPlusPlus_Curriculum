@@ -13,10 +13,52 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="7.8 Q2">
+      <UniqueIdentifier>{e3fc8907-35c1-4fd7-9200-d3675522d0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.8 Q3">
+      <UniqueIdentifier>{2c3b1923-8497-4a41-91c8-24006fb99dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.8 Q4">
+      <UniqueIdentifier>{884cbf5b-ffc5-4964-b993-41facd154654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.9 Q1">
+      <UniqueIdentifier>{c097aff1-b65e-4b8e-a417-1bb65515e9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.9 Q2">
+      <UniqueIdentifier>{11680f46-2684-480d-a4ba-23276f0bc536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.9 Q4">
+      <UniqueIdentifier>{5ae3f310-8f7d-4385-b8ed-1fbaa35bd5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.9 Q5">
+      <UniqueIdentifier>{b733afa6-151e-4c3d-8229-607c4326b147}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 7 R.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="a_z_ascii.cpp">
+      <Filter>7.8 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="inv_right_triangle.cpp">
+      <Filter>7.8 Q3</Filter>
+    </ClCompile>
+    <ClCompile Include="right_tri.cpp">
+      <Filter>7.8 Q4</Filter>
+    </ClCompile>
+    <ClCompile Include="0_to_20.cpp">
+      <Filter>7.9 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="sumTo.cpp">
+      <Filter>7.9 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="fizzbuzz.cpp">
+      <Filter>7.9 Q4</Filter>
+    </ClCompile>
+    <ClCompile Include="fizzbuzzpop.cpp">
+      <Filter>7.9 Q5</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
