@@ -219,6 +219,7 @@ private:
 
 class Button : public Box, public Label {};
 
+#if 0
 int main()
 {
     Button button{};
@@ -227,15 +228,10 @@ int main()
     button.Label::setText("Username: ");
     button.Label::setFontSize(6);
 }
+#endif
 
 // Ambiguity can result when multiple base classes contain a function with the same name
 
 // The diamond problem
 
 // Best practice: avoid multiple inheritance unless alternatives lead to more complexity
-
-int main()
-{
-    return 0;
-}
-

@@ -93,11 +93,12 @@
 //      use brace initialization when intending to call the list constructor
 //      use direct initialization when intending to call a non-list constructor
 
-// Best practice: if you provide list construction, it's a good itea to provide list assignment as well
+// Best practice: if you provide list construction, it's a good idea to provide list assignment as well
 
-
+#if 0
 int main()
 {
     return 0;
 }
+#endif 
 

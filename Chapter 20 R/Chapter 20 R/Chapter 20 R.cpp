@@ -126,6 +126,7 @@ public:
 	}
 };
 
+#if 0
 int main()
 {
 	try
@@ -137,6 +138,7 @@ int main()
 		std::cout << "Oops\n";
 	}
 }
+#endif
 
 // A function-level catch block for a constructor must either throw a new exception or rethrow the existing exception, they are not allowed to resolve exceptions
 // Return statements are also not allowed, and reaching the end of the catch block will implicitly rethrow

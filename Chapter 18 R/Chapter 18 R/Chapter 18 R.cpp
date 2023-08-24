@@ -148,7 +148,7 @@ public:
     18.9
 */
 // The assigning of a derived class to a base class object is called object slicing
-// The derived part of the derived object is sliced off, leaving obly the base part
+// The derived part of the derived object is sliced off, leaving only the base part
 
 // This is easy to do by accident with functions. Ex: function has a parameter of base class (not reference to base class) and you pass in a derived object
 // Can also be easy to do with std::vector, where the type of std::vector has been declared as the base class
@@ -293,8 +293,10 @@ public:
 
 		return out;
 	}
+
 };
 
+# if 0
 int main()
 {
 	Base b{};
@@ -308,4 +310,5 @@ int main()
 
 	return 0;
 }
+#endif
 

@@ -72,8 +72,10 @@
 // You can pass your own custom comparison functions to it
 // Doesn't work on list container classes
 
+# if 0
 int main()
 {
     return 0;
 }
+#endif
 

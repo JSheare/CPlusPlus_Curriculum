@@ -95,7 +95,7 @@ public:
 /*
 	M.3
 */
-// C++ defined two new function in service of move semantics: a move constructor and a move assignment operator
+// C++ defined two new functions in service of move semantics: a move constructor and a move assignment operator
 // Whereas the goal of the copy constructor and copy assignment is to make a copy of one object to another, the goal of the move constructor and move assignment
 //		is to move ownership of the resources from one object to another (which is typically much less expensive than making a copy)
 

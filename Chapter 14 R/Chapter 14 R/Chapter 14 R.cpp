@@ -1,5 +1,6 @@
 #include <iostream>
 
+#if 0  // Here because if I don't put this then I get annoying linker errors when testing the fraction class
 /*
     CHPATER 14 R
 */
@@ -615,3 +616,4 @@ void printString(const MyString& s)
 */
 // You can overload operators for built-in types to work with your classes
 // This might even be necessary if you want to use templates
+#endif

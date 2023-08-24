@@ -13,7 +13,9 @@
 // std::wstring is used for wide-character/unicode (utf-16) strings
 // Full list of all string functions at https://www.learncpp.com/cpp-tutorial/stdstring-and-stdwstring/
 
+# if 0
 int main()
 {
     return 0;
 }
+#endif

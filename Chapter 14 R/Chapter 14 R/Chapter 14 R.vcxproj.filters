@@ -13,10 +13,72 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="14.6 Q1">
+      <UniqueIdentifier>{97e6c94b-59b7-43a9-97f5-3f82af39f148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14.2 &amp; 14.3 &amp; 14.7 Q1">
+      <UniqueIdentifier>{3da48f0f-a446-478d-b0bd-801c5d4b7c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14.7 Q2">
+      <UniqueIdentifier>{2f44801e-f565-409a-a7f0-00953713bf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14.9 Q1">
+      <UniqueIdentifier>{6ae3cb32-f5e5-4a90-9892-2a05d48430d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14.10">
+      <UniqueIdentifier>{db00cdc1-ad1b-4bb7-aed1-0ff74a7d56e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 14 R.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Fraction.cpp">
+      <Filter>14.2 &amp; 14.3 &amp; 14.7 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="fmain.cpp">
+      <Filter>14.2 &amp; 14.3 &amp; 14.7 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>14.6 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="pmain.cpp">
+      <Filter>14.6 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>14.7 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="cmain.cpp">
+      <Filter>14.7 Q2</Filter>
+    </ClCompile>
+    <ClCompile Include="gmain.cpp">
+      <Filter>14.9 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="GradeMap.cpp">
+      <Filter>14.9 Q1</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>14.10</Filter>
+    </ClCompile>
+    <ClCompile Include="smain.cpp">
+      <Filter>14.10</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fraction.h">
+      <Filter>14.2 &amp; 14.3 &amp; 14.7 Q1</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>14.6 Q1</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>14.7 Q2</Filter>
+    </ClInclude>
+    <ClInclude Include="GradeMap.h">
+      <Filter>14.9 Q1</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>14.10</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

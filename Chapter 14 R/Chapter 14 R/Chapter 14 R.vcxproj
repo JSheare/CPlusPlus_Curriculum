@@ -129,7 +129,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Car.cpp" />
     <ClCompile Include="Chapter 14 R.cpp" />
+    <ClCompile Include="cmain.cpp" />
+    <ClCompile Include="fmain.cpp" />
+    <ClCompile Include="Fraction.cpp" />
+    <ClCompile Include="gmain.cpp" />
+    <ClCompile Include="GradeMap.cpp" />
+    <ClCompile Include="MyString.cpp" />
+    <ClCompile Include="pmain.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="smain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Fraction.h" />
+    <ClInclude Include="GradeMap.h" />
+    <ClInclude Include="MyString.h" />
+    <ClInclude Include="Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

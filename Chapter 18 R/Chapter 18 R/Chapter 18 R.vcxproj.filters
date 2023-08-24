@@ -13,10 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="18.1 Q1">
+      <UniqueIdentifier>{05a3dc0b-b5ed-4ad8-accb-8f9d47010889}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter 18 R.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="updateAnimals.cpp">
+      <Filter>18.1 Q1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
